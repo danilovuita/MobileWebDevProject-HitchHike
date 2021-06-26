@@ -31,5 +31,13 @@
        "Outbound": { }
     }
 
+ },
+ {
+    "Country": "Austria",
+    "City": "Graz",
+    "Routes": {
+       "Inbound": "",
+       "Outbound": { }
+    }
  }
 ]
