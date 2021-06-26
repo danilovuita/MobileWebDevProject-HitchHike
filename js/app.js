@@ -1,5 +1,13 @@
+class HitchHikePWA{
+    constructor(){
+      this.init();
+    }
+    async init(){
+      
+    }
+}
 window.addEventListener('load', e => {
-    new HitchhikePWA();
+    new HitchHikePWA();
     registerSW(); 
   });
   
