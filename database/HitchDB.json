@@ -39,13 +39,5 @@
        "Inbound": "",
        "Outbound": { }
     }
- },
- {
-    "Country": "Austria",
-    "City": "Tyrol",
-    "Routes": {
-       "Inbound": "",
-       "Outbound": { }
-    }
  }
 ]
