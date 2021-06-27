@@ -13,12 +13,12 @@ request.onload = function() {
   const Hitch = request.response;
   console.log(Hitch);
   for( var i = 0 ; i < Hitch.length;i++){
-      populateHeader(Hitch[i]);
+      appendData(Hitch[i]);
   }
 }
 
 
-function populateHeader(obj){
+function appendData(obj){
   
  // const myHeader = document.createElement('h2');
  // myHeader.textContent = obj.City;
