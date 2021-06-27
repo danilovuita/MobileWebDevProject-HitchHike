@@ -1,14 +1,63 @@
-var xmlFile = "./HitchWikiDB.xml"
+let requestURL = 'https://raw.githubusercontent.com/danilovuita/MobileWebDevProject-HitchHike/main/database/HitchDB.json';
 
-function loadDoc() {
-    var xhttp = new XMLHttpRequest();
-  
-    xhttp.open("GET", xmlFile, true);
-    xhttp.send();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState === 4 && this.status === 200) {
-        xmlFunction(this.response);
-      }
-    };
-  
+let request = new XMLHttpRequest();
+
+request.open('GET', requestURL);
+
+request.responseType = 'json';
+request.send();
+
+const lenHelper = request.response;
+
+request.onload = function() {
+  const Hitch = request.response;
+  console.log(Hitch);
+  for( var i = 0 ; i < Hitch.length;i++){
+      populateHeader(Hitch[i]);
   }
+}
+
+
+function populateHeader(obj){
+  
+ // const myHeader = document.createElement('h2');
+ // myHeader.textContent = obj.City;
+ // $('#Cities').append(myHeader);
+
+   const myDivRow = document.createElement('div');
+   myDivRow.className = "row";
+   const myDivCol = document.createElement('div');
+   myDivCol.className = "col-lg-4";
+   const myCard = document.createElement('div');
+   myCard.className = "card mt-3";
+   const myCardHeader = document.createElement('div');
+   myCardHeader.className = "card-header";
+   const myCardBody = document.createElement('div');
+   myCardBody.className = "card-body";
+
+
+
+   const cityName = document.createElement('p');
+   cityName.className = "text-primary"
+   cityName.textContent = obj.City;
+
+   const routesInb = document.createElement('p');
+   routesInb.textContent = obj.Routes.Inbound;
+
+   //const routesOutb = document.createElement('p');
+   //routesOutb.textContent = obj.Routes.Outbound;
+
+  myCardBody.appendChild(routesInb);
+  //myCardBody.appendChild(routesOutb);
+  myCardHeader.appendChild(cityName);
+  myCard.appendChild(myCardHeader);
+  myCard.appendChild(myCardBody); 
+  myDivCol.appendChild(myCard); 
+  myDivRow.appendChild(myDivCol);
+
+
+  $('#appendable').append(myDivCol);
+  
+
+
+}

@@ -6,13 +6,14 @@ body{
 }
 .card-body{
     background-color: #f5e4e4;
+
 }
 .card{
     box-shadow: 5px 6px 5px 1px rgba(167, 154, 154, 0.57);
 }
 
 .card-header > p{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 topnav {
