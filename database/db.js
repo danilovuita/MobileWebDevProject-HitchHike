@@ -1,4 +1,6 @@
-let requestURL = 'https://raw.githubusercontent.com/danilovuita/MobileWebDevProject-HitchHike/main/database/HitchDB.json';
+let requestURL = 'http://192.168.16.103:8080/database/HitchDB.json';
+
+// MODIFY http://192.168.16.103:8080 with own Live Server IP settings for the DB to work!
 
 let request = new XMLHttpRequest();
 
@@ -15,7 +17,7 @@ request.onload = function() {
   for( var i = 0 ; i < Hitch.length;i++){
       appendData(Hitch[i]);
   }
-}
+} 
 
 
 function appendData(obj){
@@ -42,7 +44,14 @@ function appendData(obj){
    cityName.textContent = obj.City;
 
    const routesInb = document.createElement('p');
-   routesInb.textContent = obj.Routes.Inbound.split("|").join("<br>")
+   sentencesArr = obj.Routes.Inbound.split("|");
+
+   for ( let i = 0 ; i < sentencesArr.length; i++){
+     sentencesArr[i] = sentencesArr[i] + "<br> <br>";
+   }
+
+   sentencesArr = sentencesArr.join("");
+   routesInb.innerHTML = sentencesArr;
 
    //const routesOutb = document.createElement('p');
    //routesOutb.textContent = obj.Routes.Outbound;
