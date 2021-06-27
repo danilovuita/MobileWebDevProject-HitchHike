@@ -42,7 +42,7 @@ function appendData(obj){
    cityName.textContent = obj.City;
 
    const routesInb = document.createElement('p');
-   routesInb.textContent = obj.Routes.Inbound;
+   routesInb.textContent = obj.Routes.Inbound.split("|").join("<br>")
 
    //const routesOutb = document.createElement('p');
    //routesOutb.textContent = obj.Routes.Outbound;
