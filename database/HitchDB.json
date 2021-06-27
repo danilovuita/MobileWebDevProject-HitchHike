@@ -36,5 +36,13 @@
             "North towards Czech Republic Prague, Freistadt" : "Appart from the possibilities mentioned in the section above, another on-ramp to A7 is on the Hafenstrasse. There is a petrol station near the crossroad and traffic lights with a good place to stop, where almost all cars pass by from the city to the motorway. Try to get a ride to Freistadt cause there you will find a perfect hitchhiking road filled with Czech cars just a few kilometres from the boarder."
             }]
     }
+ },
+ {
+    "Country": "Austria",
+    "City": "Graz",
+    "Routes": {
+       "Inbound": "At this moment there is no data availabe, we apologize!",
+       "Outbound": ""
+    }
  }
 ]
