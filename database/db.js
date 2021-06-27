@@ -29,9 +29,9 @@ function appendData(obj){
    const myDivRow = document.createElement('div');
    myDivRow.className = "row";
    const myDivCol = document.createElement('div');
-   myDivCol.className = "col";
+   myDivCol.className = "col-lg-4 text-center";
    const myCard = document.createElement('div');
-   myCard.className = "card mt-3";
+   myCard.className = "card m-3";
    const myCardHeader = document.createElement('div');
    myCardHeader.className = "card-header";
    const myCardBody = document.createElement('div');
@@ -44,7 +44,7 @@ function appendData(obj){
    cityName.textContent = obj.City;
 
    const routesInb = document.createElement('p');
-   sentencesArr = obj.Routes.Inbound.split("|");
+   sentencesArr = obj.Routes.Preview.split("|");
 
    for ( let i = 0 ; i < sentencesArr.length; i++){
      sentencesArr[i] = sentencesArr[i] + "<br> <br>";
@@ -65,7 +65,7 @@ function appendData(obj){
   myDivRow.appendChild(myDivCol);
 
 
-  $('#appendable').append(myDivRow);
+  $('#appendable').append(myDivCol);
   
 
 
