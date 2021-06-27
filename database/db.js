@@ -27,7 +27,7 @@ function appendData(obj){
    const myDivRow = document.createElement('div');
    myDivRow.className = "row";
    const myDivCol = document.createElement('div');
-   myDivCol.className = "col-lg-4";
+   myDivCol.className = "col";
    const myCard = document.createElement('div');
    myCard.className = "card mt-3";
    const myCardHeader = document.createElement('div');
@@ -56,7 +56,7 @@ function appendData(obj){
   myDivRow.appendChild(myDivCol);
 
 
-  $('#appendable').append(myDivCol);
+  $('#appendable').append(myDivRow);
   
 
 

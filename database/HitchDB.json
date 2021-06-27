@@ -28,7 +28,7 @@
     "Country": "Austria",
     "City": "Linz",
     "Routes": {
-       "Inbound": "At this moment there is no data availabe, we apologize!",
+       "Inbound": "To be edited!",
        "Outbound": [{ 
            "East or South-West towards Vienna, Salzburg" : "One option is to go to the main train station of Linz and then walk from there to Waldeggstraße(2 minutes walk). Try to hitchhike from the bus station out of Linz onto the A7 leading out of the town, at least to the rest area Ansfelden. In order to lower the percentage of the local transport you can walk ca. 8 more minutes to the city-bus stop Kudlichstrasse. Here it is fairly easy for the drivers to stop and pick you up. This place should be fine for hitchhiking towards Prague as well.  Another option is to go by tram no. 1 or 2 to the stop 'Linke Brückenstraße'. There walk to your right (as you exit the tram) into the Freistädter Straße. Walk for a little while and then you are on the on-ramp onto the A7 which will take you out of Linz into any direction. You can also take bus no. 33 to 'Broschgasse', then you will be right next to this on-ramp. However, there is almost no space for the driver to stop on the side to pick you up therefore this place may be considered as a risky and not that well suited for hitchhiking. Otherwise, you can take the train from Linz Hbf to Ansfelden and walk from there to the rest area on the A1. If you want to go to Vienna but get a ride to the rest area Ansfelden, you have to change to the other side of the A1 to get eastwards, therefore use the pedestrian tunnel under the Autobahn which can be found just before the restaurant."
             },
@@ -41,7 +41,7 @@
     "Country": "Austria",
     "City": "Graz",
     "Routes": {
-       "Inbound": "At this moment there is no data availabe, we apologize!",
+       "Inbound": "To be edited!",
        "Outbound": ""
     }
  }
