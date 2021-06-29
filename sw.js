@@ -42,7 +42,8 @@ const staticAssets = [
     './js/toggledrop.js',
     './css/index.css',
     './css/hikes.css',
-    './css/style.css'
+    './css/style.css',
+    './landing.css'
 ];
 
 self.addEventListener('install', async event =>{

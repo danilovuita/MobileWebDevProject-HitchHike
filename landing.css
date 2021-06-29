@@ -1,0 +1,37 @@
+.parallax {
+    /* The image used */
+    background-image: url(https://www.snopes.com/tachyon/2020/10/Getty-hitchhiker.jpg?resize=865,452&quality=65);
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+
+  .navbar {
+      margin:0 !important;
+  }
+  .content {
+    
+    background-color:white;
+    font-size:36px;
+  }
+  h1{
+      padding-top: 3em;
+      text-align: center;
+  }
+
+  .options {
+      text-align: center;
+      margin-top: 5em;
+      margin-bottom: 6em;
+  }
+  button {
+      size: 30em;
+      outline: black 0.5px solid;
+  }
