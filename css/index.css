@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background: url(/img/foggy-forest-grey.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+}
+
+.form-control {
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #ff80c0;
+  color: black;
+  border: none;
+}
+.btn-success {
+  width: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+}
+
+.badge-warning {
+  background-color: #ffa800;
+}
+
+.DropText {
+  padding: 0.5em;
+  background-color: whitesmoke;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  margin-top: 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.DropText:hover {
+  border-color: rgb(2, 167, 2);
+}
+
+.completed {
+  background-color: rgba(28, 160, 28, 0.363);
+}

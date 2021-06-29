@@ -1,0 +1,17 @@
+{
+    "name": "Hitchhiking",
+    "short_name": "HitchH",
+    "description": "Get hitchiking routes, fast and easy!",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#0f4a73",
+    "scope": "../",
+    "icons": [
+        {
+            "src": "/img/web-icon.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ]
+}

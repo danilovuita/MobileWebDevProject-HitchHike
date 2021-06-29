@@ -1,0 +1,47 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  background-color: rgb(199, 146, 162);
+}
+.card-body {
+  background-color: #f5e4e4;
+}
+.card {
+  box-shadow: 5px 6px 5px 1px rgba(167, 154, 154, 0.57);
+}
+
+.card-header > p {
+  font-size: 23px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(199, 146, 162);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: rgb(192, 132, 151);
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
