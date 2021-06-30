@@ -14,12 +14,19 @@ body{
     margin-top:1em;
     text-align: center;
 }
+<<<<<<< Updated upstream
 
 .btn-success{
     width:5em;
     margin-left: auto;
     margin-right: auto;
     margin-top:5em;
+=======
+.btn-primary {
+ 
+  color: black;
+  border: none;
+>>>>>>> Stashed changes
 }
 .badge-warning{
     background-color: #ffa800;
